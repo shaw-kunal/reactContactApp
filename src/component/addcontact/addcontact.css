@@ -1,0 +1,76 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.contactContainer form{
+  /* position: relative; */
+  box-shadow: 1px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  height: 30rem;
+  width: 26rem;
+  border-color: transparent;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+  z-index: 0;
+}
+
+  
+
+.username {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.userContact {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+.icon{
+  position: absolute;
+  left: 57px;
+  bottom: 0px;
+  color: rgb(114, 44, 168);
+}
+.username > input {
+  border-radius: 15px;
+  font-size: 20px;
+  color: black;
+  padding: 3px 15px;
+  border: none;
+  border-bottom: 2px solid black;
+  /* background-color: rgb(226, 229, 233); */
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  outline: none;
+  padding-left: 40px;
+}
+.userContact > input {
+  border-radius: 15px;
+  font-size: 20px;
+  color: black;
+  padding: 3px 15px;
+  border: none;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  outline: none;
+  border-bottom: 2px solid black;
+padding-left: 30px;
+}
+.addbtn {
+  padding: 4px 21px;
+  background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}

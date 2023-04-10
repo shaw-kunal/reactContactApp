@@ -1,0 +1,117 @@
+.ContactContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.ContactContainer .contactWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+
+
+
+}
+
+
+
+.ContactContainer .showContact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 25px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width: 500px;
+    font-size: large;
+
+
+}
+
+.ContactContainer .showContact .eachContact {
+    display: flex;
+    flex-direction: column;
+    gaP: 10px;
+    width: 60%;
+
+}
+
+
+
+.ContactContainer .showContact>button {
+    padding: 4px 20px;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+
+}
+
+.ContactContainer .showContact .edit {
+    background-color: rgb(103, 210, 103);
+}
+
+.ContactContainer .showContact .delete {
+    background-color: rgb(226, 15, 26);
+}
+
+
+
+.ContactContainer .editContact {}
+
+/* // edit .ContactContainer */
+.editContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.editContact .editWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+
+
+}
+
+.editContact .editWrapper .contactItem {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.editContact .editWrapper .contactItem>input {
+    width: 200px;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    border: 1px solid black;
+}
+
+.editContact .editWrapper>button {
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 3px 10px;
+    cursor: pointer;
+
+}
